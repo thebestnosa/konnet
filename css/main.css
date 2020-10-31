@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    width:100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.navbar   {
+    padding: .5rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar a span {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-link {
+    font-size: 16px;
+    
+}
+
+
+.bannertext span{
+    font-weight: bolder;
+    word-spacing: 10px;
+    text-shadow: 1px 1px tomato;
+}
+
+#fixed {
+   background: url(../images/a2.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+#fixedimage {
+   background: url(../images/a1.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   height: 25vh;
+ }
+
+ #fixedimage2 {
+    background: url(../images/world.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 25vh;
+  }
+
+
+  #fixedimage3 {
+    background: url(../images/light.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 25vh;
+  }
+.twocol img{
+   height: 400px;
+   width: 600px;
+ }
+
+
+ .news span {
+    font-size: 32px;
+ }
+
+
+ .longline {
+     height: 2px;
+     background-color: tomato;
+ }
+
+ .borderline {
+    padding: 10px;
+    border-left: 2px solid tomato;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.layer  {
+    background-color: rgb(12, 12, 19);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110vh;
+    opacity: 0.5;
+}
+
+
+
+
+/*media quesries*/
+
+
+@media(max-width: 992px){
+
+} 
+
+@media(max-width: 768px){
+	
+} 
+
+@media(max-width: 576px){
+	
+} 
+
